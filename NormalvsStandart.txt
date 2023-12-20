@@ -1,0 +1,34 @@
+Normalizasyon:
+
+Amaç:
+
+Veri setindeki değerleri belirli bir aralığa sıkıştırmayı amaçlar.
+Genellikle [0, 1] veya [-1, 1] aralığına ölçeklendirme yapılır.
+Formül:
+
+Veri noktasının normalize edilmiş değeri genellikle (x - min) / (max - min) formülü ile hesaplanır.
+Burada x, veri noktasını; min, veri setindeki en küçük değeri; max, veri setindeki en büyük değeri temsil eder.
+Sonuçlar:
+
+Veriler belirlenen aralık içinde sıkıştırılır.
+Outlier'ların etkilerini azaltır.
+Özellikle, ölçekler arasında büyük farklar varsa tercih edilir.
+Standardizasyon:
+
+Amaç:
+
+Veri setinin ortalamasını 0, standart sapmasını ise 1 yaparak veri dağılımını normal bir dağılıma benzetmeyi amaçlar.
+Z-Score dönüşümü olarak da bilinir.
+Formül:
+
+Veri noktasının standartlaştırılmış değeri genellikle (x - mean) / std formülü ile hesaplanır.
+Burada x, veri noktasını; mean, veri setinin ortalamasını; std, veri setinin standart sapmasını temsil eder.
+Sonuçlar:
+
+Ortalaması 0, standart sapması 1 olacak şekilde veri setini dönüştürür.
+Veri setinin dağılımını normalize eder ve anlamı daha iyi korur.
+Ağırlıklı özniteliklerin etkilerini dengelemeye yardımcı olabilir.
+Hangi Durumda Kullanılmalı:
+
+Eğer veri setinizin dağılımı normal bir dağılıma yakın değilse, standardizasyon tercih edilebilir.
+Eğer veri setinizde ölçek farkları varsa ve veriler arasındaki oranlar önemli değilse, normalizasyon tercih edilebilir.
